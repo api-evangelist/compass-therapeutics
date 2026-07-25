@@ -1,8 +1,24 @@
 aid: compass-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/compass-therapeutics.png
 name: Compass Therapeutics
-description: 'Compass Therapeutics is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Compass Therapeutics is a clinical-stage biopharmaceutical company developing proprietary
+  antibody-based therapeutics for the treatment of cancer. Its research is grounded in understanding the
+  tumor microenvironment, designing candidates that optimize the components required for an effective
+  anti-tumor immune response and bridge innate and adaptive immunity. Lead clinical programs include
+  tovecimig and CTX-8371. Surfaced as a portfolio company of GV, this is a life-sciences company profile
+  in the API Evangelist network; it publishes a corporate and investor web presence but no public
+  developer, API, or technical integration surface.'
 url: https://raw.githubusercontent.com/api-evangelist/compass-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Life Sciences
+- Biopharmaceutical
+- Biotechnology
+- Oncology
+- Antibody Therapeutics
+- Immuno-Oncology
+- Clinical Stage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/compass-therapeutics-domain-security.yml
 - type: Website
-  url: http://compasstherapeutics.com
+  url: https://www.compasstherapeutics.com
+- type: Support
+  url: https://www.compasstherapeutics.com/contact/
+- type: PrivacyPolicy
+  url: https://www.compasstherapeutics.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.compasstherapeutics.com/terms-conditions/
+- type: Investors
+  url: https://investors.compasstherapeutics.com/
+- type: Careers
+  url: https://www.compasstherapeutics.com/join-us/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
